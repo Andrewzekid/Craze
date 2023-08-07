@@ -14,6 +14,6 @@ Todo:
 ----
 - [ ] Filter list of candidate words to exclude greyed out letters
 - [ ] Discourage guesses that have two or more of the same letter
-- [ ] Fix word list [current word list] (https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93)
+- [ ] Fix word list [current word list](https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93)
 
 
