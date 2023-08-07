@@ -16,7 +16,6 @@ Todo:
 - [ ] Discourage guesses that have two or more of the same letter
 - [ ] Improve performance, currently around 4-5 guesses on average
 - [ ] Update metric we’ll use to evaluate each guess: [predicted number of remaining words after that guess.](https://medium.com/@gordonbchen/wordle-solver-a1a531d22085)
-We’ll calculate the predicted remaining words after a guess by taking the sum of (the number of remaining words after a set of colors) weighted (aka multiplied) by (the probability of getting that set of colors) over all combinations of colors.
 - [ ] Fix word list, current word list is: [current word list](https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93)
 - [ ] Reinforcement learning implementation (In far far future)
 
