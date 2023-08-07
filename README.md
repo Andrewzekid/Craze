@@ -14,7 +14,7 @@ Todo:
 ----
 - [ ] Filter list of candidate words to exclude greyed out letters
 - [ ] Discourage guesses that have two or more of the same letter
-- [ ] Improve performance, currently around 4-5 guesses on average
+- [ ] Improve performance, currently around 4-5 guesses on average (See metric, greyed and fix word list)
 - [ ] Update metric we’ll use to evaluate each guess: [predicted number of remaining words after that guess.](https://medium.com/@gordonbchen/wordle-solver-a1a531d22085)
 - [ ] Fix word list, current word list is: [current word list](https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93)
 - [ ] Reinforcement learning implementation (In far far future)
