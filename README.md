@@ -15,7 +15,7 @@ Version 1.1 (:white_check_mark:):
 ## Version 1.2 (✅):
 
 > [!NOTE]
-> Performance of this version was around 4-5 guesses
+> Performance of this version was around 3-4 guesses
 - [X] Filter list of candidate words to exclude greyed out letters
 - [X] Discourage guesses that have two or more of the same letter
 
