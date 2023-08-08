@@ -19,6 +19,9 @@ Version 1.1 (:white_check_mark:):
 - [X] Filter list of candidate words to exclude greyed out letters
 - [X] Discourage guesses that have two or more of the same letter
 
+> [!Important]
+> Patch fix 1.21 Fixed bug of 1 yellow letter and 1 black letter causing program to glitch out
+
 Todo:
 ----
 - [X] Filter list of candidate words to exclude greyed out letters
