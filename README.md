@@ -30,6 +30,6 @@ Todo:
 - [ ] Fix word list, current word list is: [current word list](https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93)
 - [ ] Reinforcement learning implementation (In far far future)
 - [ ] Incorporate probability that words come up into score calculation
-- [ ] Gets stuck on situations when you know four green letters and dont know the last one
+- [ ] #1 Gets stuck on situations when you know four green letters and dont know the last one
 
 
