@@ -13,7 +13,7 @@ Version 1.1 (:white_check_mark:):
 - [X] Return best guess from a list of guesses
 
 ## Version 1.2 (✅):
-================================
+
 > [!NOTE]
 > Performance of this version was around 4-5 guesses
 - [X] Filter list of candidate words to exclude greyed out letters
