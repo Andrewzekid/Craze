@@ -3,4 +3,4 @@ def get_input(filename):
     with open(filename, "r") as f:
         words = f.read()
         out = words.split("\n")
-        return out
+        return out[:-1]
