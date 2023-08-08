@@ -1,4 +1,5 @@
 aahed
+arose
 aalii
 aapas
 aargh
@@ -1284,6 +1285,7 @@ bions
 biont
 biose
 biota
+masse
 biped
 bipod
 bippy

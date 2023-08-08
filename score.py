@@ -39,7 +39,10 @@ def heuristic(corpus,guess,greens,yellows):
             current_yellow_index = yellows[i]
             #Filter all words that have the yellow letter in them but not at the same position
             target_list = [word for word in target_list if current_yellow_letter in word and word[current_yellow_index] != current_yellow_letter]
-
+    #Determine the max possible number of letters that can be in a word
+    #Get total number of as in the word
+    #Say 1 yellow a and 1 green a and 1 black a 
+    #Filter out words with more than 2 as
     blacks = {0,1,2,3,4} - set(greens) - set(yellows)
     print(blacks,greens,yellows)
     black_letters = [guess[i] for i in blacks]
@@ -51,7 +54,9 @@ def heuristic(corpus,guess,greens,yellows):
     black_counts_dict = {letter:0 for letter in set(black_letters)}
 
     for letter in black_letters:
-        black_counts_dict[letter] += 1
+        black_counts_dict[letter] = guess.count(letter) - black_letters.count(letter)
+        print(f"black letters: {black_letters}")
+        print(f"There are {guess.count(letter)} {letter}'s in {guess} and {black_letters.count(letter)} {letter}'s which are black!")
     
 
     
@@ -73,7 +78,7 @@ def heuristic(corpus,guess,greens,yellows):
         for letter,count in black_counts_dict.items():
             print(f"Exluding words with {count} {letter}'s")
             #I.e: if there is not two Rs in this, then exclude words with 3rs, 4rs, 5rs and 2rs
-            target_list = [word for word in target_list if not(word.count(letter) >= count)]
+            target_list = [word for word in target_list if word.count(letter) >= count]
         print(f"New target_list is: {target_list}")
     #Find how many black letters there can be
         #For every word, if it has one or more of the black 
