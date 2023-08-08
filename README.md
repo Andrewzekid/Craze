@@ -4,8 +4,7 @@ Craze takes in a guess, information about what letters are yellow and green, and
 
 Version 1.1 (:white_check_mark:):
 ===================================
-> [!NOTE]
-> Performance of this version was around 5-6 guesses.
+Performance: <span style="color: red;">5-6 guesses.</span>
 - [X] Load list of words
 - [X] Take input of a guess and data about yellow and green letters :tada:
 - [X] Function to calculate the score for a candidate guess, representing how good that guess is
