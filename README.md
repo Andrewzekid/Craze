@@ -30,6 +30,6 @@ Todo:
 - [ ] Fix word list, current word list is: [current word list](https://gist.github.com/dracos/dd0668f281e685bad51479e5acaadb93)
 - [ ] Reinforcement learning implementation (In far far future)
 - [ ] Incorporate probability that words come up into score calculation
-- [ ] [#1 ](https://github.com/Andrewzekid/Craze/issues/1)https://github.com/Andrewzekid/Craze/issues/1
+- [ ] [#1](https://github.com/Andrewzekid/Craze/issues/1)
 
 
