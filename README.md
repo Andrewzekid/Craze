@@ -2,7 +2,7 @@
 Craze Wordle Solver, Using filtering to iteratively find the correct answer.
 Craze takes in a guess, information about what letters are yellow and green, and from a list of all possible wordle words, picks the next best guess.
 
-Version 1.1 (:white_check_mark:):
+Version 0.0.0 (:white_check_mark:):
 ===================================
 Performance: <span style="color: red;">5-6 guesses.</span>
 - [X] Load list of words
@@ -11,7 +11,7 @@ Performance: <span style="color: red;">5-6 guesses.</span>
 - [X] Filter list of words to based on information about what is yellow and green
 - [X] Return best guess from a list of guesses
 
-## Version 1.2 (✅):
+## Version 0.0.1 (✅):
 
 > [!NOTE]
 > Performance of this version was around 3-4 guesses
@@ -19,7 +19,7 @@ Performance: <span style="color: red;">5-6 guesses.</span>
 - [X] Discourage guesses that have two or more of the same letter
 
 > [!IMPORTANT]
-> Patch fix 1.21 Fixed bug of 1 yellow letter and 1 black letter causing program to glitch out
+> Patch fix 0.0.1 Fixed bug of 1 yellow letter and 1 black letter causing program to glitch out
 
 Todo:
 ----
